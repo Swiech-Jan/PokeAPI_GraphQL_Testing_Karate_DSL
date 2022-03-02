@@ -18,7 +18,7 @@ Feature: Testing graphQL poke-api TC1Test1
         When method POST
         Then status 200
 
-        #Test if array of returned elements is NOT empty.
+        #Test if array of returned elements is NOT empty
         And match response.data.gen3_species != []
 
 
